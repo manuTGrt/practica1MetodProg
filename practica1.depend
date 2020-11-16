@@ -42,3 +42,54 @@
 1604951792 source:c:\users\manutgrt\desktop\practica1a_ayuda_2020\src\fecha.cpp
 	"Fecha.h"
 
+1605554122 source:c:\users\manuel\desktop\github\practica1metodprog\main.cpp
+	<iostream>
+	<cstdlib>
+	<Fecha.h>
+	<Cliente.h>
+
+1605554122 c:\users\manuel\desktop\github\practica1metodprog\include\fecha.h
+	<iostream>
+
+1605554122 c:\users\manuel\desktop\github\practica1metodprog\include\cliente.h
+	<iostream>
+	"Fecha.h"
+
+1605554122 source:c:\users\manuel\desktop\github\practica1metodprog\src\cliente.cpp
+	<cstdlib>
+	<cstring>
+	<iomanip>
+	<sstream>
+	"Cliente.h"
+
+1605554122 source:c:\users\manuel\desktop\github\practica1metodprog\src\fecha.cpp
+	"Fecha.h"
+
+1542142972 source:c:\users\manuel\desktop\github\practica1metodprog\src\contrato.cpp
+	"Contrato.h"
+
+1542148748 c:\users\manuel\desktop\github\practica1metodprog\include\contrato.h
+	<iostream>
+	"Fecha.h"
+
+1542144860 source:c:\users\manuel\desktop\github\practica1metodprog\src\contratomovil.cpp
+	<iostream>
+	<cstdlib>
+	<cstring>
+	<iomanip>
+	"Contrato.h"
+	"ContratoMovil.h"
+
+1605556733 c:\users\manuel\desktop\github\practica1metodprog\include\contratomovil.h
+	<iostream>
+	"Fecha.h"
+	"Contrato.h"
+
+1605556538 source:c:\users\manuel\desktop\github\practica1metodprog\src\contratotp.cpp
+	"ContratoTP.h"
+
+1605556538 c:\users\manuel\desktop\github\practica1metodprog\include\contratotp.h
+	<iostream>
+	"Fecha.h"
+	"Contrato.h"
+

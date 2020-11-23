@@ -9,6 +9,11 @@ Contrato::Contrato(long int dni, Fecha f): idContrato(contador), fechaContrato(f
   //this->fechaContrato=f; //ERROR es tipo no primitivo y debe ir en zona inicializadores
 }
 
+Contrato::Contrato(const Contrato& c): idContrato(contador),fechaContrato(c.fechaContrato){
+    Contrato::contador++;
+    this->dniContrato=c.dniContrato;
+}
+
 Contrato::~Contrato() {
     //dtor
 }
@@ -21,7 +26,7 @@ void Contrato::ver() const {
 }
 
 ostream& operator<<(ostream &s, const Contrato &c) {
-  s << c.getDniContrato() << " (" << c.getIdContrato() << " - " << c.getFechaContrato() << " )";
+  s << c.getDniContrato() << " (" << c.getIdContrato() << " - " << c.getFechaContrato() << ")";
   return s;
 }
 

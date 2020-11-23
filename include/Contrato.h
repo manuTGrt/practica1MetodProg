@@ -14,7 +14,7 @@ class Contrato {
 public:
   Contrato(long int dni, Fecha f);
   virtual ~Contrato();
-//Contrato(const Contrato& c); //¿es necesario? pensar y reflexionad
+  Contrato(const Contrato& c); //¿es necesario? pensar y reflexionad
 
 //Contrato& operator=(const Contrato& c); //no es necesario y ademas no puede ser usado porque Contrato tiene un
                                           //atributo constante idContrato que no puede modificarse
@@ -25,7 +25,7 @@ public:
   Fecha getFechaContrato() const { return this->fechaContrato; }
   void setFechaContrato(Fecha f) { this->fechaContrato=f; }
   void setDniContrato(long int dni) { this->dniContrato=dni; }
-  void ver() const;
+  virtual void ver() const;
 };
 
 ostream& operator<<(ostream &s, const Contrato &c);

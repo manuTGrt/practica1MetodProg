@@ -23,10 +23,10 @@ public:
 
   float getPrecioMinuto() const { return this->precioMinuto; }
   int getMinutosHablados() const { return this->minutosHablados; }
-  const char* getNacionalidad() const { return this->nacionalidad; } //IMPORTANTE devuelve un puntero constante
+  char* getNacionalidad() const { return this->nacionalidad; } //IMPORTANTE devuelve un puntero constante
   void setPrecioMinuto(float precio) { this->precioMinuto=precio; }
   void setMinutosHablados(int m) { this->minutosHablados=m; }
-  void setNacionalidad(char* nac);
+  void setNacionalidad(const char* nac);
   void ver() const;
   float factura() const;
 };

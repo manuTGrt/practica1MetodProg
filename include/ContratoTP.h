@@ -25,6 +25,9 @@ public:
 
   //A RELLENAR POR EL ALUMNO...
   float factura() const;
+  int getMinutosHablados() const { return this->minutosHablados; }
+  void setMinutosHablados(int m) { this->minutosHablados=m; }
+  void ver() const;
 };
 
 ostream& operator<<(ostream &s, const ContratoTP &c);

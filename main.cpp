@@ -109,6 +109,23 @@ int main()
     cout << *p <<"\n"<< c << endl;
     cout << ct1 <<endl<< ct2 <<"\n"<< ct3 <<"\n"<< cm1 <<"\n"<< cm2 <<endl<< cm3 << endl;
 
+    Contrato *t[4];
+    t[0]=p;
+    t[1]=&c;
+    t[2]=&ct2;
+    t[3]=&cm1;
+    cout << "\n-- Datos de los contratos: -- \n";
+    t[3]->setDniContrato(75547111);
+    for(int i=0; i<4; i++)
+    {
+        t[i]->setFechaContrato(t[i]->getFechaContrato()+2);
+        t[i]->ver();
+        cout << endl;
+    }
+
     system("PAUSE");
     return 0;
+
+    //PARTE 3
+
 }

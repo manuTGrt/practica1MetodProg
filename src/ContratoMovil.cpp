@@ -26,6 +26,9 @@ ContratoMovil::~ContratoMovil() {
 ContratoMovil::ContratoMovil(const ContratoMovil& c):Contrato(c.getDniContrato(), c.getFechaContrato()) { //... o usar esta otra cabecera
   this->precioMinuto=c.precioMinuto;
   //terminar de implementarlo...
+  this->minutosHablados=c.minutosHablados;
+  this->nacionalidad=new char [strlen(c.nacionalidad)+1];
+  strcpy(this->nacionalidad, c.nacionalidad);
 }
 
 void ContratoMovil::ver() const {
@@ -36,11 +39,14 @@ void ContratoMovil::ver() const {
 
 float ContratoMovil::factura() const {
   //implementarlo...
+  return precioMinuto*minutosHablados;
 }
 
 
-void ContratoMovil::setNacionalidad(char* nac) {
+void ContratoMovil::setNacionalidad(const char* nac) {
   //implementarlo...
+  this->nacionalidad=new char[strlen(nac)+1];
+  strcpy(this->nacionalidad,nac);
 }
 
 ostream& operator<<(ostream &s, const ContratoMovil &c) {

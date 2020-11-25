@@ -42,7 +42,7 @@
 1604951792 source:c:\users\manutgrt\desktop\practica1a_ayuda_2020\src\fecha.cpp
 	"Fecha.h"
 
-1606162679 source:c:\users\manuel\desktop\github\practica1metodprog\main.cpp
+1606325137 source:c:\users\manuel\desktop\github\practica1metodprog\main.cpp
 	<iostream>
 	<cstdlib>
 	<cstring>
@@ -70,14 +70,14 @@
 1605554122 source:c:\users\manuel\desktop\github\practica1metodprog\src\fecha.cpp
 	"Fecha.h"
 
-1606162510 source:c:\users\manuel\desktop\github\practica1metodprog\src\contrato.cpp
+1606325138 source:c:\users\manuel\desktop\github\practica1metodprog\src\contrato.cpp
 	"Contrato.h"
 
-1606163218 c:\users\manuel\desktop\github\practica1metodprog\include\contrato.h
+1606325369 c:\users\manuel\desktop\github\practica1metodprog\include\contrato.h
 	<iostream>
 	"Fecha.h"
 
-1606161282 source:c:\users\manuel\desktop\github\practica1metodprog\src\contratomovil.cpp
+1606325137 source:c:\users\manuel\desktop\github\practica1metodprog\src\contratomovil.cpp
 	<iostream>
 	<cstdlib>
 	<cstring>
@@ -85,15 +85,15 @@
 	"Contrato.h"
 	"ContratoMovil.h"
 
-1606158769 c:\users\manuel\desktop\github\practica1metodprog\include\contratomovil.h
+1606325369 c:\users\manuel\desktop\github\practica1metodprog\include\contratomovil.h
 	<iostream>
 	"Fecha.h"
 	"Contrato.h"
 
-1606161981 source:c:\users\manuel\desktop\github\practica1metodprog\src\contratotp.cpp
+1606325138 source:c:\users\manuel\desktop\github\practica1metodprog\src\contratotp.cpp
 	"ContratoTP.h"
 
-1606161846 c:\users\manuel\desktop\github\practica1metodprog\include\contratotp.h
+1606325369 c:\users\manuel\desktop\github\practica1metodprog\include\contratotp.h
 	<iostream>
 	"Fecha.h"
 	"Contrato.h"

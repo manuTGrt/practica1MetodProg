@@ -71,7 +71,7 @@ int main()
     cout << ", ";
     f3.ver();
     cout << endl;
-    Contrato *p = new Contrato(75547111, f1), c(23000111, Fecha(2,2,2002));
+    //Contrato *p = new Contrato(75547111, f1), c(23000111, Fecha(2,2,2002));
     cout << ContratoTP::getLimiteMinutos() << " - " << ContratoTP::getPrecio() << endl;
     ContratoTP ct1(17333256, f1, 250); //habla 250 minutoe
     ContratoTP ct2(12555100, f3, 320); //habla 320 minutos
@@ -79,9 +79,9 @@ int main()
     ContratoMovil cm1(17333256, f1, 0.12, 100, "ESPAÑOL"); //habla 100 minutos
     ContratoMovil cm2(17000000, Fecha(3,3,2003), 0.10, 180, "FRANCES"); //habla 180 minutos
     ContratoMovil cm3(cm2);
-    p->ver();
+    //p->ver();
     cout << "\n";
-    c.ver();
+    //c.ver();
     cout << endl;
     ct1.ver();
     cout << endl;
@@ -95,23 +95,23 @@ int main()
     cout << "\n";
     cm3.ver();
     cout << "\n";
-    cout << p->getIdContrato() << ct2.getIdContrato() << cm2.getIdContrato() << endl;
+    //cout << p->getIdContrato() << ct2.getIdContrato() << cm2.getIdContrato() << endl;
     cout << setprecision(2) << fixed; //a partir de aqui float se muestra con 2 decimales
 
     cout << "Facturas: " << ct1.factura() <<"-"<< ct2.factura() <<"-"<< cm1.factura() << endl;
     ContratoTP::setTarifaPlana(350, 12); //350 minutos por 12 euros
-    p->setDniContrato(cm1.getDniContrato());
-    ct3.setFechaContrato(p->getFechaContrato()+1);
+    //p->setDniContrato(cm1.getDniContrato());
+    //ct3.setFechaContrato(p->getFechaContrato()+1);
     cm3.setNacionalidad(cm1.getNacionalidad());
     cm2.setPrecioMinuto(cm1.getPrecioMinuto()+0.02);
     cm1.setMinutosHablados(ct2.getMinutosHablados()/2);
     ct1.setMinutosHablados(cm3.getMinutosHablados()*2);
-    cout << *p <<"\n"<< c << endl;
+    //cout << *p <<"\n"<< c << endl;
     cout << ct1 <<endl<< ct2 <<"\n"<< ct3 <<"\n"<< cm1 <<"\n"<< cm2 <<endl<< cm3 << endl;
 
     Contrato *t[4];
-    t[0]=p;
-    t[1]=&c;
+    //t[0]=p;
+    //t[1]=&c;
     t[2]=&ct2;
     t[3]=&cm1;
     cout << "\n-- Datos de los contratos: -- \n";

@@ -26,6 +26,7 @@ public:
   void setFechaContrato(Fecha f) { this->fechaContrato=f; }
   void setDniContrato(long int dni) { this->dniContrato=dni; }
   virtual void ver() const;
+  virtual void nada() const = 0;
 };
 
 ostream& operator<<(ostream &s, const Contrato &c);

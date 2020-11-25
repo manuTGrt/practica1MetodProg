@@ -29,6 +29,7 @@ public:
   void setNacionalidad(const char* nac);
   void ver() const;
   float factura() const;
+  void nada() const{;}
 };
 
 ostream& operator<<(ostream &s, const ContratoMovil &c);

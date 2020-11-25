@@ -28,6 +28,7 @@ public:
   int getMinutosHablados() const { return this->minutosHablados; }
   void setMinutosHablados(int m) { this->minutosHablados=m; }
   void ver() const;
+  void nada() const{;}
 };
 
 ostream& operator<<(ostream &s, const ContratoTP &c);

@@ -9,7 +9,7 @@
 
 class Empresa
 {
-    Contrato **contratos;
+    Contrato **contratos[];
     Cliente *clientes[100];
     int ncon;
     int ncli;

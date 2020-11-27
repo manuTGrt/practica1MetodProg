@@ -1,14 +1,13 @@
-#include <iostream>
 #include <cstdlib>
-#include <cstring>
+#include <iostream>
 #include <iomanip> //std::setprecision
+#include "Fecha.h" //definicion clase Fecha
+#include "Cliente.h" // definicion clase Cliente
+#include "Contrato.h" // definicion de la clase Contrato
+#include "ContratoTP.h" // definicion de la clase ContratoTP
+#include "ContratoMovil.h" // definicion de la clase ContratoMovil
+#include "Empresa.h" // definicion de la clase Empresa
 
-#include "Fecha.h"
-#include "Cliente.h"
-#include "Contrato.h"
-#include "ContratoTP.h"
-#include "ContratoMovil.h"
-#include "Empresa.h"
 
 using namespace std;
 
@@ -135,7 +134,7 @@ int main()
     cout << endl << "APLICACION DE GESTION TELEFONICA\n" << endl;
     Yoigo.cargarDatos(); //crea 3 clientes y 7 contratos. metodo creado para no
     Yoigo.ver(); //tener que meter datos cada vez que pruebo el programa
-    cout <<"Yoigo tiene " << Yoigo.nContratosTP() << " Contratos de Tarifa Plana\n\n";
+    //cout <<"Yoigo tiene " << Yoigo.nContratosTP() << " Contratos de Tarifa Plana\n\n";
 
     Yoigo.crearContrato(); //ContratoMovil a 37000017 el 01/01/2017 con 100m a 0.25
     Yoigo.crearContrato(); //ContratoTP a 22330014 (pepe luis) el 2/2/2017 con 305m
@@ -155,10 +154,10 @@ int main()
     else cout << "El cliente 75547001 no existe\n";
     Yoigo.ver();
 
-    Yoigo.descuento(20);
+    /*Yoigo.descuento(20);
     cout << "\nTras rebajar un 20% la tarifa de los ContratosMovil...";
     Yoigo.ver();
-    cout <<"Yoigo tiene " << Yoigo. nContratosTP () << " Contratos de Tarifa Plana\n";
+    cout <<"Yoigo tiene " << Yoigo. nContratosTP () << " Contratos de Tarifa Plana\n";*/
     system("PAUSE");
     return 0;
 

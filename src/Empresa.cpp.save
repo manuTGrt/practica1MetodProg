@@ -25,6 +25,7 @@ void Empresa::crearContrato()
     {
         cout<<"Nombre del cliente: ";
         cin>>nombre_cli;
+        cin>>nada;
         cout<<"dia: ";
         cin>>dia;
         cout<<"mes: ";

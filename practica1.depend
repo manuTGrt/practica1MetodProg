@@ -98,3 +98,69 @@
 	"Fecha.h"
 	"Contrato.h"
 
+1606442758 source:c:\users\manutgrt\desktop\github\practica1mp\practica1mp\main.cpp
+	<cstdlib>
+	<iostream>
+	<iomanip>
+	"Fecha.h"
+	"Cliente.h"
+	"Contrato.h"
+	"ContratoTP.h"
+	"ContratoMovil.h"
+	"Empresa.h"
+
+1605551925 c:\users\manutgrt\desktop\github\practica1mp\practica1mp\include\fecha.h
+	<iostream>
+
+1604947677 c:\users\manutgrt\desktop\github\practica1mp\practica1mp\include\cliente.h
+	<iostream>
+	"Fecha.h"
+
+1606436504 c:\users\manutgrt\desktop\github\practica1mp\practica1mp\include\contrato.h
+	<iostream>
+	"Fecha.h"
+
+1606436504 c:\users\manutgrt\desktop\github\practica1mp\practica1mp\include\contratotp.h
+	<iostream>
+	"Fecha.h"
+	"Contrato.h"
+
+1606436504 c:\users\manutgrt\desktop\github\practica1mp\practica1mp\include\contratomovil.h
+	<iostream>
+	"Fecha.h"
+	"Contrato.h"
+
+1606442206 c:\users\manutgrt\desktop\github\practica1mp\practica1mp\include\empresa.h
+	"Fecha.h"
+	"Cliente.h"
+	"Contrato.h"
+	"ContratoTP.h"
+	"ContratoMovil.h"
+
+1604949572 source:c:\users\manutgrt\desktop\github\practica1mp\practica1mp\src\cliente.cpp
+	<cstdlib>
+	<cstring>
+	<iomanip>
+	<sstream>
+	"Cliente.h"
+
+1606163625 source:c:\users\manutgrt\desktop\github\practica1mp\practica1mp\src\contrato.cpp
+	"Contrato.h"
+
+1606163625 source:c:\users\manutgrt\desktop\github\practica1mp\practica1mp\src\contratomovil.cpp
+	<iostream>
+	<cstdlib>
+	<cstring>
+	<iomanip>
+	"Contrato.h"
+	"ContratoMovil.h"
+
+1606163625 source:c:\users\manutgrt\desktop\github\practica1mp\practica1mp\src\contratotp.cpp
+	"ContratoTP.h"
+
+1605551925 source:c:\users\manutgrt\desktop\github\practica1mp\practica1mp\src\fecha.cpp
+	"Fecha.h"
+
+1606442457 source:c:\users\manutgrt\desktop\github\practica1mp\practica1mp\src\empresa.cpp
+	"Empresa.h"
+

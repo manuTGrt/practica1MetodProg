@@ -25,7 +25,7 @@ ContratoTP::ContratoTP(long int dni, Fecha f, int m):Contrato(dni,f){
 
 void ContratoTP::ver() const{
     Contrato::ver();
-    cout<<" "<<minutosHablados<<"m, "<<minutosTP<<"("<<precioTP<<")";
+    cout<<" "<<minutosHablados<<"m, "<<minutosTP<<"("<<precioTP<<")"<<" - "<<factura()<<"€";
 }
 
 ostream& operator<<(ostream &s, const ContratoTP &c){

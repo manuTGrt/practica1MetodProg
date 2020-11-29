@@ -1,6 +1,7 @@
 #ifndef EMPRESA_H
 #define EMPRESA_H
 
+#include <typeinfo>
 #include "Fecha.h" //definicion clase Fecha
 #include "Cliente.h" // definicion clase Cliente
 #include "Contrato.h" // definicion de la clase Contrato
@@ -30,7 +31,6 @@ class Empresa
         int nContratosTP() const;
         void cargarDatos();
 
-        void creaCon(long int dni);
         void comprueba_ncon(int ncon);
         void ver() const;
 };

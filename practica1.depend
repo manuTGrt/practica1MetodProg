@@ -98,7 +98,7 @@
 	"Fecha.h"
 	"Contrato.h"
 
-1606442758 source:c:\users\manutgrt\desktop\github\practica1mp\practica1mp\main.cpp
+1606610410 source:c:\users\manutgrt\desktop\github\practica1mp\practica1mp\main.cpp
 	<cstdlib>
 	<iostream>
 	<iomanip>
@@ -130,7 +130,8 @@
 	"Fecha.h"
 	"Contrato.h"
 
-1606442206 c:\users\manutgrt\desktop\github\practica1mp\practica1mp\include\empresa.h
+1606609122 c:\users\manutgrt\desktop\github\practica1mp\practica1mp\include\empresa.h
+	<typeinfo>
 	"Fecha.h"
 	"Cliente.h"
 	"Contrato.h"
@@ -147,7 +148,7 @@
 1606163625 source:c:\users\manutgrt\desktop\github\practica1mp\practica1mp\src\contrato.cpp
 	"Contrato.h"
 
-1606163625 source:c:\users\manutgrt\desktop\github\practica1mp\practica1mp\src\contratomovil.cpp
+1606599021 source:c:\users\manutgrt\desktop\github\practica1mp\practica1mp\src\contratomovil.cpp
 	<iostream>
 	<cstdlib>
 	<cstring>
@@ -155,12 +156,12 @@
 	"Contrato.h"
 	"ContratoMovil.h"
 
-1606163625 source:c:\users\manutgrt\desktop\github\practica1mp\practica1mp\src\contratotp.cpp
+1606599021 source:c:\users\manutgrt\desktop\github\practica1mp\practica1mp\src\contratotp.cpp
 	"ContratoTP.h"
 
 1605551925 source:c:\users\manutgrt\desktop\github\practica1mp\practica1mp\src\fecha.cpp
 	"Fecha.h"
 
-1606442457 source:c:\users\manutgrt\desktop\github\practica1mp\practica1mp\src\empresa.cpp
+1606610191 source:c:\users\manutgrt\desktop\github\practica1mp\practica1mp\src\empresa.cpp
 	"Empresa.h"
 

@@ -1,6 +1,7 @@
 # Practica 1 de Metodología de la Programación
  
-_En esta práctica he aprendido a utilizar la herencia, el polimorfismo, el casteo dinámico y el typeid._
+_En esta práctica he aprendido a utilizar la herencia, el polimorfismo, las clases abstractas, el casteo dinámico y el typeid._
+
 _Además, he aprendido a utilizar de mejor forma el lenguaje c++._
 
 ## Problemas encontrados y soluciones
